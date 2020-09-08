@@ -1,0 +1,200 @@
+<!--All tags in HTML Cheatsheet in your html with explanations-->
+
+<!DOCTYPE html>
+<html>
+    <!--Head Tag-->
+<head>
+<title>HTML Cheatsheet</title>
+    <!--style Tag: used for inline css-->
+<style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+    </style>
+</head>
+    <!--Body Tag-->
+<body>
+<ul>
+    <!--Headings-->
+<li><p>HEADINGS: A heading element implies all the font changes. The heading elements are H1, H2, H3, H4, H5, and H6 with H1 being the highest (or most important) level and H6 the least.</p></li>
+<h1>page title</h1>
+<h2>Subheading</h2>
+<h3>Tertiary heading</h3>
+<h4>Quaternary heading</h4>
+<h5>...heading</h5>
+<h6>...heading</h6>
+
+<hr>
+    <!--Div tag-->
+<li><p>DIV SECTION: The div tag defines a division or a section in an HTML document. The div tag is used as a container for HTML elements - which is then styled with CSS or manipulated with JavaScript. The div tag is easily styled by using the class or id attribute. Any sort of content can be put inside the div tag!</p></li>
+<div>Block element</div>
+
+<hr>
+    <!--Paragraph-->
+<li><p>PRAGRAPH: The p tag defines a paragraph of text. It is a block-level element and always starts on a new line.</p></li>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam perspiciatis incidunt dolorem necessitatibus amet iste soluta ipsa odio eveniet vero dolor ea veritatis nobis maiores perferendis, aspernatur repellat, sapiente minus.</p>
+
+<hr>
+    <!--Image Tag-->
+<li><p>IMAGE TAG: The img tag is used to embed an image in an HTML page.</p></li>
+<p><img src="/demo.jpg" alt="description" width="100" height="48" /></p>
+
+<hr>
+    <!--Outbond link-->
+<li><p>OUTBOND LINK: These are links that are going to direct you to another specific webpage or website altogether.</p></li>
+<p><a href="https://google.com/" target="_blank" rel="nofollow">Click here</a></p>
+
+<hr>
+    <!--Mailto link-->
+<li><p>MAILTO LINK: Mailto link is a type of HTML link that activates the default mail client on the computer for sending an e-mail.</p></li>
+<a href="mailto:guvi@gmail.com">Email</a> 
+
+<hr>
+    <!--Bold text-->
+<li><p>TEXT</p></li>
+<p><strong>Bold text</strong></p>
+<p><em>Italic text</em></p>
+<p><span style="text-decoration: underline;">Underlined text</span></p>
+
+<hr>
+    <!--Line break-->
+<li><p>LINE BREAK: The HTML - br element defines a line break. Use br if you want a line break (a new line) without starting a new paragraph</p></li>    
+<br>
+
+<hr>
+    <!--Horizontal line-->
+<li><p>HORIZONTAL LINE: The hr element is most often displayed as a horizontal rule that is used to separate content (or define a change) in an HTML page.</p></li>
+<hr>
+
+<hr>
+    <!--Abbrevation-->
+<li><p>ABBREVATION: The abbr tag defines an abbreviation or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".</p></li>
+The <abbr title="World Health Organization">WHO</abbr> predicted COVID vaccine by 2021.
+
+<hr>
+    <!--Create Table-->
+<li><p>CREATE TABLE: HTML tables allow web developers to arrange data into rows and columns.</p></li>
+    <table style="width: 6%; border-collapse: collapse;" border="1" cellpadding="2">
+        <tbody>
+        <tr>
+        <td>A</td>
+        <td>B</td>
+        <td>C</td>
+        </tr>
+        <tr>
+        <td>D</td>
+        <td>E</td>
+        <td>F</td>
+        </tr>
+        <tr>
+        <td>G</td>
+        <td>H</td>
+        <td>I</td>
+        </tr>
+        <tr>
+            <td><span style="font-size: 20px;">&#128522;</span></td>
+            <td><span style="font-size: 20px;">&#128578;</span></td>
+            <td><span style="font-size: 20px;">&#128512;</span></td>
+        </tr>
+        </tbody>
+        </table>
+
+ <br>    
+
+        <table>
+          <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+          </tr>
+          <tr>
+            <td>Amazon</td>
+            <td>Maria</td>
+            <td>Banglore</td>
+          </tr>
+          <tr>
+            <td>Centro</td>
+            <td>Francisco</td>
+            <td>Mexico</td>
+          </tr>
+          <tr>
+            <td>Google</td>
+            <td>Roland</td>
+            <td>Austria</td>
+          </tr>
+          <tr>          
+        </table>
+
+<hr>
+        <!--Unorderd list-->
+<li><p>UNORDERED LIST: An unordered list starts with the - ul tag. Each list item starts with the - li tag.
+    The list items will be marked with bullets (small black circles) by default</p></li>
+<ul>
+    <li>First</li>
+    <li>Second</li>
+    <li>Third</li>
+</ul>
+
+<hr>
+        <!--Orderd List-->
+<li><p>ORDERED LIST: An ordered list starts with the - ol tag. Each list item starts with the - li tag.
+    The list items will be marked with numbers by default</p></li>
+<ol>
+        <li>First</li>
+        <li>Second</li>
+        <li>Third</li>
+</ol>
+
+<hr>
+
+    <!--HTML Description list| HTML Definition list-->
+<li><p>HTML DESCRIPTION LIST/ HTML DEFINITION LIST:
+    HTML Description List or Definition List displays elements in definition form like in dictionary. The 3 HTML description list tags are given below:
+        dl: tag defines the description list.
+        dt: tag defines data term.
+        dd: tag defines data definition (description).</p></li>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Hypertext Markup Language</dd>
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheets</dd>
+            <dt>JS</dt>
+            <dd>Java Script</dd>
+        </dl>
+
+<hr>
+
+    <!--Form-->
+<li><p>FORM: An HTML form is used to collect user input. The user input is most often sent to a server for processing.</p></li>
+<form action="/action.php" method="post">
+    Name: <input name="name" type="text" /> <br /> 
+    Age: <input max="99" min="1" name="age" step="1" type="number" value="18" /> <br />
+    <select name="gender">
+    <option selected="selected" value="male">Male</option>
+    <option value="female">Female</option>
+    </select><br /> 
+    <input checked="checked" name="newsletter" type="radio" value="daily" /> Daily 
+    <input name="newsletter" type="radio" value="weekly" /> Weekly<br /> 
+    <textarea cols="20" name="comments" rows="5">Comment</textarea><br /> 
+    <label><input name="terms" type="checkbox" value="tandc" />Accept terms</label> <br /> 
+    <input type="submit" value="Submit" /></form>
+
+<hr>
+<!--IFRAME-->
+<li><p>IFRAME: An inline frame - iframe is used to embed another document within the current HTML document.</p></li>
+<p><iframe src="https://www.google.com" title="Welcome to Google"></p>        
+</ul>
+</body>
+</html>
