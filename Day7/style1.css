@@ -1,0 +1,29 @@
+/* text-primary: blue
+text-sucess: green */
+  
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+ #paper-name{
+    font-size: 100px !important;
+}
+
+.paper-title{
+    font-size: 100px !important;
+}
+.paper-heading{
+    font-size: 80px !important;
+}
+
+.final-heading{
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.paper-small-heading{
+    font-size: 30px !important;
+    font-family: 'Oswald', sans-serif;
+} 
+
+#subtitle{
+    font-size: 10px;
+}
